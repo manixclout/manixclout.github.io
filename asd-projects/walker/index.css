@@ -1,21 +1,22 @@
 
 body {
-  background-color: darkgreen;
+  background-color: white;
 }
 
 #board {
   width: 440px;
   height: 440px;
-  border: 1px solid white;
+  border: 1px solid yellow;
   background-color: black;
   position: relative;
 }
 
-#gameItem {
-  background-color: teal;
+#walker {
+  background-color: purple;
   width: 50px;
   height: 50px;
   position: absolute;
+  border-radius: 25px;
 /*   left: 100px; */  /* Uncomment if you want to set a "starting" position */
 /*   top: 100px;  */  /* Uncomment if you want to set a "starting" position */
 }
